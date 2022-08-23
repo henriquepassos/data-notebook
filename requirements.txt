@@ -52,7 +52,7 @@ markdown==3.2.2
     # via tensorboard
 matplotlib==3.3.0
     # via seaborn
-numpy==1.18.5
+numpy==1.22.0
     # via
     #   h5py
     #   keras-preprocessing
