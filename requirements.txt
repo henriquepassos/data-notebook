@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-absl-py==0.9.0
+absl-py==1.3.0
     # via
     #   tensorboard
     #   tensorflow
@@ -18,7 +18,7 @@ chardet==3.0.4
     # via requests
 cycler==0.10.0
     # via matplotlib
-flatbuffers==2.0
+flatbuffers==1.12
     # via tensorflow
 gast==0.3.3
     # via tensorflow
@@ -40,7 +40,7 @@ idna==2.10
     # via requests
 joblib==0.16.0
     # via scikit-learn
-keras==2.7.0
+keras==2.9.0
     # via tensorflow
 keras-preprocessing==1.1.2
     # via tensorflow
@@ -52,7 +52,7 @@ markdown==3.2.2
     # via tensorboard
 matplotlib==3.3.0
     # via seaborn
-numpy==1.18.5
+numpy==1.23.5
     # via
     #   h5py
     #   keras-preprocessing
@@ -67,6 +67,8 @@ numpy==1.18.5
 oauthlib==3.1.0
     # via requests-oauthlib
 opt-einsum==3.3.0
+    # via tensorflow
+packaging==21.3
     # via tensorflow
 pandas==1.0.5
     # via seaborn
@@ -83,7 +85,9 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
     # via google-auth
 pyparsing==2.4.7
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   packaging
 python-dateutil==2.8.1
     # via
     #   matplotlib
@@ -108,7 +112,6 @@ seaborn==0.10.1
     # via -r requirements.in
 six==1.15.0
     # via
-    #   absl-py
     #   astunparse
     #   cycler
     #   google-auth
@@ -125,9 +128,9 @@ tensorboard-data-server==0.6.1
     # via tensorboard
 tensorboard-plugin-wit==1.7.0
     # via tensorboard
-tensorflow==2.7.2
+tensorflow==2.9.3
     # via -r requirements.in
-tensorflow-estimator==2.7.0
+tensorflow-estimator==2.9.0
     # via tensorflow
 tensorflow-io-gcs-filesystem==0.26.0
     # via tensorflow
@@ -145,7 +148,6 @@ wheel==0.34.2
     # via
     #   astunparse
     #   tensorboard
-    #   tensorflow
 wrapt==1.12.1
     # via tensorflow
 
