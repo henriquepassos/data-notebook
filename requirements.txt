@@ -50,6 +50,8 @@ libclang==14.0.1
     # via tensorflow
 markdown==3.2.2
     # via tensorboard
+markupsafe==2.1.2
+    # via werkzeug
 matplotlib==3.3.0
     # via seaborn
 numpy==1.18.5
@@ -139,7 +141,7 @@ typing-extensions==4.2.0
     # via tensorflow
 urllib3==1.25.10
     # via requests
-werkzeug==1.0.1
+werkzeug==2.2.3
     # via tensorboard
 wheel==0.34.2
     # via
