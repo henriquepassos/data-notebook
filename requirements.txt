@@ -141,7 +141,7 @@ typing-extensions==4.2.0
     # via tensorflow
 urllib3==1.25.10
     # via requests
-werkzeug==2.2.3
+werkzeug==3.0.3
     # via tensorboard
 wheel==0.34.2
     # via
