@@ -14,7 +14,7 @@ cachetools==4.1.1
     # via google-auth
 certifi==2022.12.7
     # via requests
-chardet==3.0.4
+charset-normalizer==3.3.2
     # via requests
 cycler==0.10.0
     # via matplotlib
@@ -92,7 +92,7 @@ python-dateutil==2.8.1
     #   pandas
 pytz==2020.1
     # via pandas
-requests==2.24.0
+requests==2.32.2
     # via
     #   requests-oauthlib
     #   tensorboard
