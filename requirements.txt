@@ -139,7 +139,7 @@ threadpoolctl==2.1.0
     # via scikit-learn
 typing-extensions==4.2.0
     # via tensorflow
-urllib3==1.25.10
+urllib3==1.26.19
     # via requests
 werkzeug==3.0.3
     # via tensorboard
