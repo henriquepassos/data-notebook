@@ -30,7 +30,7 @@ google-auth-oauthlib==0.4.1
     # via tensorboard
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.30.0
+grpcio==1.53.2
     # via
     #   tensorboard
     #   tensorflow
@@ -115,7 +115,6 @@ six==1.15.0
     #   cycler
     #   google-auth
     #   google-pasta
-    #   grpcio
     #   h5py
     #   keras-preprocessing
     #   protobuf
