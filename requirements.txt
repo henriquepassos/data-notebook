@@ -54,7 +54,7 @@ markupsafe==2.1.2
     # via werkzeug
 matplotlib==3.3.0
     # via seaborn
-numpy==1.18.5
+numpy==1.22.0
     # via
     #   h5py
     #   keras-preprocessing
