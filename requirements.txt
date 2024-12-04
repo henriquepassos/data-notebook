@@ -38,7 +38,7 @@ h5py==2.10.0
     # via tensorflow
 idna==2.10
     # via requests
-joblib==0.16.0
+joblib==1.2.0
     # via scikit-learn
 keras==2.7.0
     # via tensorflow
